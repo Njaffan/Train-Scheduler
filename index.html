@@ -17,9 +17,6 @@
   <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
 
 
-
-
-
 </head>
 
 <body>
@@ -31,66 +28,97 @@
                 <h2>SCHEDULES</h2>
             </div>
         </div>
-    </div>
-    <div class = "jumbotron" >
-        <div class = "row">
-            <div class = "col-md-12">
-                <table class = "table table-striped">
-                    <thead>
-                        <tr>
-                            <th>Departure Station</th>
-                            <th>Destination Station</th>
-                            <th>Departure Time</th>
-                            <th>Minutes Away</th>                    
-                        </tr>      
-                    </thead>
-                    <tbody>
-                         <tr>
-                            <td>Los Angeles</td>
-                            <td>Fullerton</td>
-                            <td>7:10 am</td>
-                            <td>8 Hrs</td>
-                        </tr>
-
-                        <tr>
-                            <td>Los Angeles</td>
-                            <td>Fullerton</td>
-                            <td>7:10 am</td>
-                            <td>8 Hrs</td>
-                        </tr>
-
-                        <tr>
-                            <td>Los Angeles</td>
-                            <td>Fullerton</td>
-                            <td>7:10 am</td>
-                            <td>8 Hrs</td>
-                        </tr>
-
-                        <tr>
-                            <td>Los Angeles</td>
-                            <td>Fullerton</td>
-                            <td>7:10 am</td>
-                            <td>8 Hrs</td>
-                        </tr>
-                        
-                    </tbody>
-
-
-
-
-
-
-
-                </table>
-
+    </div>    
+        <div class="panel panel-primary">
+            <div class="panel-heading" >
+                <h3 class="panel-title">Current Train Schedule</h3>
             </div>
-        </div>
-        
-    </div>
+                    <div class="panel-body">
+                         <div class = "row">
+                            <div class = "col-md-12">
+                                <table class = "table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Departure Station</th>
+                                            <th>Destination Station</th>
+                                            <th>Departure Time</th>
+                                            <th>Minutes Away</th>                    
+                                        </tr>      
+                                    </thead>
+                                    <tbody>
+                                         <tr>
+                                            <td>Los Angeles</td>
+                                            <td>Fullerton</td>
+                                            <td>7:10 am</td>
+                                            <td>8 Hrs</td>
+                                        </tr>
 
-</div>
+                                        <tr>
+                                            <td>Los Angeles</td>
+                                            <td>Fullerton</td>
+                                            <td>7:10 am</td>
+                                            <td>8 Hrs</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Los Angeles</td>
+                                            <td>Fullerton</td>
+                                            <td>7:10 am</td>
+                                            <td>8 Hrs</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Los Angeles</td>
+                                            <td>Fullerton</td>
+                                            <td>7:10 am</td>
+                                            <td>8 Hrs</td>
+                                        </tr>
+                                        
+                                    </tbody>
+                                </table>
+
+                            </div>
+                         </div>
+                    </div>
+        </div>
  
- 
+
+    <div class="panel panel-primary" >
+        <div class="panel-heading">
+             <h3 class="panel-title">Add Train</h3>
+        </div>
+        <div class="panel-body">
+            <div class = "row">
+                <div class = "col-md-12">
+                     <form>
+                <div class="form-group">
+                  <label for="TrainName">Train Name</label>
+                  <input class="form-control" id="train-name-input" type="text">
+                </div>
+                <div class="form-group">
+                  <label for="Destination">Destination</label>
+                  <input class="form-control" id="Destination-input" type="text">
+                </div>
+                <div class="form-group">
+                  <label for="firstTrain">First Train Time</label>
+                  <input class="form-control" id="Departure-input" type="text">
+                </div>
+                <div class="form-group">
+                  <label for="frequency-input">Frequency</label>
+                  <input class="form-control" id="Frequency-input" type="text">
+                </div>
+                <button class="btn btn-primary" id="add-employee-btn" type="submit">Submit</button>
+              </form>
+                </div>
+            </div>
+        </div>    
+    </div>
+    
+
+
+
+ </div> 
+<script type="text/javascript" src="assets/javaScript.js"></script> 
 
 </body>
 
